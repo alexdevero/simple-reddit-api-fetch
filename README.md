@@ -1,4 +1,4 @@
-﻿<p align="center">
+<p align="center">
   <!-- <a href="https://circleci.com/gh/alexdevero/simple-reddit-api-fetch/"><img alt="Build Status" src="https://circleci.com/gh/alexdevero/simple-reddit-api-fetch.svg?style=shield&circle-token=:circle-token"></a> -->
   <a href="https://david-dm.org/alexdevero/simple-reddit-api-fetch"><img alt="Dependency Status" src="https://david-dm.org/alexdevero/simple-reddit-api-fetch.svg?style=flat"></a>
   <a href="https://david-dm.org/alexdevero/simple-reddit-api-fetch?type=dev"><img alt="devDependency Status" src="https://david-dm.org/alexdevero/simple-reddit-api-fetch/dev-status.svg?style=flat"></a>
@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://alexdevero.com"><img alt="Built by DEVERO" src="https://img.shields.io/badge/built%20by-DEVERO-brightgreen.svg?colorB=d30320"></a>
-  <a href="#"><img alt="Releases" src="https://img.shields.io/github/release/alexdevero/gridd.svg"></a>
+  <a href="#"><img alt="Releases" src="https://img.shields.io/github/release/alexdevero/simple-reddit-api-fetch.svg"></a>
 </p>
 
 # Simple Reddit API fetch App
