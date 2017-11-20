@@ -1,7 +1,7 @@
 {
   "name": "simple-reddit-api-fetch-app",
   "productName": "Simple Reddit API fetch App",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple application for fetching Reddit API.",
   "main": "app/background.js",
   "build": {
