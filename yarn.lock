@@ -148,13 +148,13 @@ anymatch@^1.3.0:
     micromatch "^2.1.5"
     normalize-path "^2.0.0"
 
-app-package-builder@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/app-package-builder/-/app-package-builder-1.5.0.tgz#3263598b07ac577b3df2205171a449f2dd5f30ca"
+app-package-builder@1.5.1:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/app-package-builder/-/app-package-builder-1.5.1.tgz#92bc9bf8821a7d61eb057171515718cc1f6f4514"
   dependencies:
     bluebird-lst "^1.0.5"
-    builder-util "^3.2.1"
-    builder-util-runtime "^3.1.0"
+    builder-util "^3.4.0"
+    builder-util-runtime "^3.2.0"
     fs-extra-p "^4.4.4"
     int64-buffer "^0.1.9"
     rabin-bindings "~1.7.3"
@@ -852,7 +852,7 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
-bluebird-lst@^1.0.3, bluebird-lst@^1.0.4, bluebird-lst@^1.0.5:
+bluebird-lst@^1.0.4, bluebird-lst@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/bluebird-lst/-/bluebird-lst-1.0.5.tgz#bebc83026b7e92a72871a3dc599e219cbfb002a9"
   dependencies:
@@ -933,7 +933,7 @@ buffer-shims@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/buffer-shims/-/buffer-shims-1.0.0.tgz#9978ce317388c649ad8793028c3477ef044a8b51"
 
-builder-util-runtime@3.2.0, builder-util-runtime@^3.1.0, builder-util-runtime@^3.2.0:
+builder-util-runtime@3.2.0, builder-util-runtime@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/builder-util-runtime/-/builder-util-runtime-3.2.0.tgz#b946032b61c940533fa5e8f05afc550b8e56c94c"
   dependencies:
@@ -942,9 +942,18 @@ builder-util-runtime@3.2.0, builder-util-runtime@^3.1.0, builder-util-runtime@^3
     fs-extra-p "^4.4.4"
     sax "^1.2.4"
 
-builder-util@3.2.2, builder-util@^3.2.1:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/builder-util/-/builder-util-3.2.2.tgz#9660f74f168f6d4e175ca3c25c8e0d0ed7ff965c"
+builder-util-runtime@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/builder-util-runtime/-/builder-util-runtime-3.3.0.tgz#6374029211544f1a380fc7275658b0616b0e9ae1"
+  dependencies:
+    bluebird-lst "^1.0.5"
+    debug "^3.1.0"
+    fs-extra-p "^4.4.4"
+    sax "^1.2.4"
+
+builder-util@3.4.1:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/builder-util/-/builder-util-3.4.1.tgz#b9f079ff4c279699ca52f42930bab1c19ff62517"
   dependencies:
     "7zip-bin" "^2.2.7"
     bluebird-lst "^1.0.5"
@@ -952,7 +961,7 @@ builder-util@3.2.2, builder-util@^3.2.1:
     chalk "^2.3.0"
     debug "^3.1.0"
     fs-extra-p "^4.4.4"
-    ini "^1.3.4"
+    ini "^1.3.5"
     is-ci "^1.0.10"
     js-yaml "^3.10.0"
     lazy-val "^1.0.2"
@@ -960,7 +969,28 @@ builder-util@3.2.2, builder-util@^3.2.1:
     semver "^5.4.1"
     source-map-support "^0.5.0"
     stat-mode "^0.2.2"
-    temp-file "^2.0.3"
+    temp-file "^2.1.1"
+    tunnel-agent "^0.6.0"
+
+builder-util@^3.4.0, builder-util@^3.4.1:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/builder-util/-/builder-util-3.4.2.tgz#d5dbf595038f4912f3bbac0a98ab4010d2708b9c"
+  dependencies:
+    "7zip-bin" "^2.2.7"
+    bluebird-lst "^1.0.5"
+    builder-util-runtime "^3.3.0"
+    chalk "^2.3.0"
+    debug "^3.1.0"
+    fs-extra-p "^4.4.4"
+    ini "^1.3.5"
+    is-ci "^1.0.10"
+    js-yaml "^3.10.0"
+    lazy-val "^1.0.2"
+    node-emoji "^1.8.1"
+    semver "^5.4.1"
+    source-map-support "^0.5.0"
+    stat-mode "^0.2.2"
+    temp-file "^3.0.0"
     tunnel-agent "^0.6.0"
 
 builtin-modules@^1.0.0:
@@ -1612,12 +1642,12 @@ diff@3.3.1:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.3.1.tgz#aa8567a6eed03c531fc89d3f711cd0e5259dec75"
 
-dmg-builder@2.1.6:
-  version "2.1.6"
-  resolved "https://registry.yarnpkg.com/dmg-builder/-/dmg-builder-2.1.6.tgz#a37f0c8360794a7051a30a571582968cb1e3ce30"
+dmg-builder@2.1.7:
+  version "2.1.7"
+  resolved "https://registry.yarnpkg.com/dmg-builder/-/dmg-builder-2.1.7.tgz#0d672ee00929f6a1ff321b3b660d0350e4c880eb"
   dependencies:
     bluebird-lst "^1.0.5"
-    builder-util "^3.2.1"
+    builder-util "^3.4.0"
     debug "^3.1.0"
     fs-extra-p "^4.4.4"
     iconv-lite "^0.4.19"
@@ -1700,25 +1730,23 @@ ejs@^2.5.7, ejs@~2.5.6:
   version "2.5.7"
   resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.5.7.tgz#cc872c168880ae3c7189762fd5ffc00896c9518a"
 
-electron-builder@^19.45.5:
-  version "19.45.5"
-  resolved "https://registry.yarnpkg.com/electron-builder/-/electron-builder-19.45.5.tgz#67a949d71cd2e947efd333fc9a933bd36c552cc6"
+electron-builder-lib@19.46.4:
+  version "19.46.4"
+  resolved "https://registry.yarnpkg.com/electron-builder-lib/-/electron-builder-lib-19.46.4.tgz#abd522640b64872379bebef24d777dc542e9e83c"
   dependencies:
     "7zip-bin" "^2.2.7"
-    app-package-builder "1.5.0"
+    app-package-builder "1.5.1"
     asar-integrity "0.2.3"
     async-exit-hook "^2.0.1"
     bluebird-lst "^1.0.5"
-    builder-util "3.2.2"
+    builder-util "3.4.1"
     builder-util-runtime "3.2.0"
-    chalk "^2.3.0"
     chromium-pickle-js "^0.2.0"
     debug "^3.1.0"
-    dmg-builder "2.1.6"
+    dmg-builder "2.1.7"
     ejs "^2.5.7"
-    electron-download-tf "4.3.4"
     electron-osx-sign "0.4.7"
-    electron-publish "19.45.0"
+    electron-publish "19.46.4"
     fs-extra-p "^4.4.4"
     hosted-git-info "^2.5.0"
     is-ci "^1.0.10"
@@ -1731,7 +1759,23 @@ electron-builder@^19.45.5:
     read-config-file "1.2.0"
     sanitize-filename "^1.6.1"
     semver "^5.4.1"
-    temp-file "^2.0.3"
+    temp-file "^2.1.1"
+
+electron-builder@^19.46.4:
+  version "19.46.4"
+  resolved "https://registry.yarnpkg.com/electron-builder/-/electron-builder-19.46.4.tgz#d69ac60b78778258ab5cba0a9fb94963563e903b"
+  dependencies:
+    bluebird-lst "^1.0.5"
+    builder-util "3.4.1"
+    builder-util-runtime "3.2.0"
+    chalk "^2.3.0"
+    electron-builder-lib "19.46.4"
+    electron-download-tf "4.3.4"
+    fs-extra-p "^4.4.4"
+    is-ci "^1.0.10"
+    lazy-val "^1.0.2"
+    read-config-file "1.2.0"
+    sanitize-filename "^1.6.1"
     update-notifier "^2.3.0"
     yargs "^10.0.3"
 
@@ -1824,13 +1868,13 @@ electron-osx-sign@0.4.7:
     minimist "^1.2.0"
     plist "^2.1.0"
 
-electron-publish@19.45.0:
-  version "19.45.0"
-  resolved "https://registry.yarnpkg.com/electron-publish/-/electron-publish-19.45.0.tgz#7cdcf4f54dd821bffaf4dcc59b21223cfbd8ac4c"
+electron-publish@19.46.4:
+  version "19.46.4"
+  resolved "https://registry.yarnpkg.com/electron-publish/-/electron-publish-19.46.4.tgz#fb9e53f16329c89d3c234b1c653fb7d603b903d1"
   dependencies:
     bluebird-lst "^1.0.5"
-    builder-util "^3.2.1"
-    builder-util-runtime "^3.1.0"
+    builder-util "^3.4.1"
+    builder-util-runtime "^3.2.0"
     chalk "^2.3.0"
     fs-extra-p "^4.4.4"
     mime "^2.0.3"
@@ -2375,7 +2419,7 @@ fs-exists-sync@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/fs-exists-sync/-/fs-exists-sync-0.1.0.tgz#982d6893af918e72d08dec9e8673ff2b5a8d6add"
 
-fs-extra-p@^4.4.0, fs-extra-p@^4.4.4:
+fs-extra-p@^4.4.4:
   version "4.4.4"
   resolved "https://registry.yarnpkg.com/fs-extra-p/-/fs-extra-p-4.4.4.tgz#396ad6f914eb2954e1700fd0e18288301ed45f04"
   dependencies:
@@ -3078,6 +3122,10 @@ inherits@2.0.1:
 ini@^1.3.4, ini@~1.3.0:
   version "1.3.4"
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.4.tgz#0537cb79daf59b59a1a517dff706c86ec039162e"
+
+ini@^1.3.5:
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
 
 inquirer@^0.12.0:
   version "0.12.0"
@@ -5418,9 +5466,9 @@ rollup-pluginutils@^1.3.1:
     estree-walker "^0.2.1"
     minimatch "^3.0.2"
 
-rollup@^0.51.8:
-  version "0.51.8"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.51.8.tgz#58bd0b642885f4770b5f93cc64f14e4233c2236d"
+rollup@^0.52.0:
+  version "0.52.0"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-0.52.0.tgz#cdb6927f53bf7b7fb09af3a936b9c8ee49b161e2"
 
 run-async@^0.1.0:
   version "0.1.0"
@@ -5943,13 +5991,22 @@ tar@^2.0.0, tar@^2.2.1:
     fstream "^1.0.2"
     inherits "2"
 
-temp-file@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/temp-file/-/temp-file-2.0.3.tgz#0de2540629fc77a6406ca56f50214d1f224947ac"
+temp-file@^2.1.1:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/temp-file/-/temp-file-2.1.3.tgz#cc54f01d367df6e36c1fefbd662afbd95fdd0f37"
   dependencies:
     async-exit-hook "^2.0.1"
-    bluebird-lst "^1.0.3"
-    fs-extra-p "^4.4.0"
+    bluebird-lst "^1.0.5"
+    fs-extra-p "^4.4.4"
+    lazy-val "^1.0.2"
+
+temp-file@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/temp-file/-/temp-file-3.0.0.tgz#1e9eca9c411a41564f5746bc2774c39080021db0"
+  dependencies:
+    async-exit-hook "^2.0.1"
+    bluebird-lst "^1.0.5"
+    fs-extra-p "^4.4.4"
     lazy-val "^1.0.2"
 
 term-size@^1.2.0:
